@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>WeatherMap</title>
+  </head>
+  <body>
+    <header><h1>WeatherMap</h1></header>
+    <section class="weather_container">
+      <div class="user_actual_weather">
+        <h1>Votre météo a <span class="actual_user_position">Ville</span></h1>
+        <p class="actual_user_date">Date</p>
+        <div class="conditions_container">
+          <div class="conditions">
+            <p class="actual_user_condition">Condition</p>
+            <p class="actual_user_temp">Temperature</p>
+            <p class="actual_user_temp_feel">Temperature ressentie</p>
+          </div>
+          <img src="#" alt="Icone de la condition météo" class="actual_user_condition_icon" />
+        </div>
+        <p class="actual_user_wind">Vent</p>
+        <p class="actual_user_humidity">Humidité</p>
+        <p class="actual_user_last_updated">Derniere maj</p>
+      </div>
+      <div class="other_weather_container">
+        <div class="other_actual_weather">
+          <h1>
+            Météo a <input type="text" placeholder="Ville de votre choix" class="other_weather_position_input" />
+            <button class="submit_position_button">V</button>
+          </h1>
+          <p class="actual_other_date">Date</p>
+          <div class="conditions_container">
+            <div class="conditions">
+              <p class="actual_other_condition">Condition</p>
+              <p class="actual_other_temp">Temperature</p>
+              <p class="actual_other_temp_feel">Temperature ressentie</p>
+            </div>
+            <img src="#" alt="Icone de la condition météo" class="actual_other_condition_icon" />
+          </div>
+          <p class="actual_other_wind">Vent</p>
+          <p class="actual_other_humidity">Humidité</p>
+          <p class="actual_other_last_updated">Derniere maj</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
